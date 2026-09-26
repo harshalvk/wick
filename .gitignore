@@ -1,0 +1,52 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Conda
+*.conda/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Model weights & downloads (these get huge, never commit them)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Hugging Face cache (in case it defaults locally instead of ~/.cache)
+.cache/
+huggingface/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables / secrets
+.env
